@@ -1,0 +1,12 @@
+from Myro import *
+speed = int(input("What speed they want?"))
+time = int(input("How much time?"))
+init("sim")
+forward(speed,time)
+turnBy(90)
+forward(speed,time)
+turnBy(90)
+forward(speed,time)
+turnBy(90)
+forward(speed,time)
+turnBy(90)
